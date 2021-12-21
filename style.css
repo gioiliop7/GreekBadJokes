@@ -194,12 +194,12 @@ h2 {
   font-size: 1.8rem;
 }
 
-.bodytitle{
-    font-size: 3rem;
-    font-weight: bold;
-    top:0;
-    margin-top:2rem;
-    text-align: center;
+.bodytitle {
+  font-size: 3rem;
+  font-weight: bold;
+  top: 0;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .jokebox {
@@ -212,30 +212,30 @@ h2 {
   -webkit-border-radius: 10px 25px 10px 10px;
   -moz-border-radius: 10px 25px 10px 10px;
   border-radius: 10px 25px 10px 10px;
-  margin-bottom:2.5rem;
+  margin-bottom: 2.5rem;
 }
 
-.reddit{
-    text-align: center;
+.reddit {
+  text-align: center;
 }
 
-.jokebox img{
-    max-width: 100px;
+.jokebox img {
+  max-width: 100px;
 }
 
-.laugh{
-    max-width: 50px;
-    margin:2rem 0;
+.laugh {
+  max-width: 50px;
+  margin: 2rem 0;
 }
 
-#getrandom{
-    color:#fff;
-    background:#000;
-    border-radius:1rem;
-    font-size:1rem;
-    width:100%;
-    border:none;
-    max-width:200px;
-    padding:1rem;
-    margin:2rem;
+#getrandom {
+  color: #fff;
+  background: #000;
+  border-radius: 1rem;
+  font-size: 1rem;
+  width: 100%;
+  border: none;
+  max-width: 200px;
+  padding: 1rem;
+  margin: 2rem;
 }

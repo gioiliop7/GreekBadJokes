@@ -25,7 +25,7 @@ jQuery(document).ready(function () {
       joke_text = joke_text.replace(/\n|\r/g, "<br>");
       joke_text = joke_text.replace(/&amp;#x200B;/g, "");
       joke_text = joke_text.replace(/\\/g, "");
-      jokes_array.push({ title: joke, text: joke_text,url:joke_url });
+      jokes_array.push({ title: joke, text: joke_text, url: joke_url });
     });
 
     function get_random_element() {
@@ -38,13 +38,13 @@ jQuery(document).ready(function () {
 
       titleElement.innerHTML = randomElement.title;
       textElement.innerHTML = randomElement.text;
-      hrefElement.setAttribute('href',randomElement.url);
+      hrefElement.setAttribute("href", randomElement.url);
     }
 
     get_random_element();
 
     $("#getrandom").click(function () {
-        get_random_element();
-      });
+      get_random_element();
+    });
   });
 });
